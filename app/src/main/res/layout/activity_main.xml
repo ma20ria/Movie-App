@@ -1,0 +1,140 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="80px"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="MOVIE NAME"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Movie Name"
+            android:id="@+id/mname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="ACTOR"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ACTOR Name"
+            android:id="@+id/aname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="ACTRESS NAME"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Actress Name"
+            android:id="@+id/asname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="RELEASED YEAR"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Year of Release"
+            android:id="@+id/year"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="LANGUAGE"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Language"
+            android:id="@+id/lang"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GROSS COLLECTION"
+            android:layout_marginTop="50px"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Collection of the film"
+            android:id="@+id/colle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DISTRIBUTER NAME"
+            android:layout_marginTop="50px"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Distributer Name"
+            android:id="@+id/dname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRODUCER NAME"
+            android:textSize="40px"
+            android:layout_marginTop="50px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Producer Name"
+            android:id="@+id/pname"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="PRODUCTION COMPANY"
+            android:textSize="40px"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Production Company Name"
+            android:id="@+id/pcname"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:text="SUBMIT"
+            android:background="#711031"
+            android:textColor="#FFFFFF"
+            android:layout_margin="50px"
+            android:id="@+id/submitbtn"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginTop="50px"
+            android:layout_height="wrap_content"
+            android:text="VIEW ALL MOVIES"
+            android:background="#711031"
+            android:textColor="#FFFFFF"
+            android:layout_margin="50px"
+            android:id="@+id/viewbtn"/>
+    </LinearLayout>
+
+</ScrollView>
